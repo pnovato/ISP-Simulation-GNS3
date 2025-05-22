@@ -1,0 +1,7 @@
+664:1000:1000:/root/log/OpenVPN_SERVER_vpn_server.zip
+644:0:0:/root/log/OpenVPN_SERVER_vpn_server/OpenVPN_SERVER_vpn_server.p12
+644:0:0:/root/log/OpenVPN_SERVER_vpn_server/OpenVPN_SERVER_vpn_server-tls.key
+644:0:0:/root/log/OpenVPN_SERVER_vpn_server/OpenVPN_SERVER_vpn_server.ovpn
+700:0:0:/root/log/OpenVPN_SERVER_vpn_server
+644:0:0:/root/log/.gns3_perms
+755:0:0:/root/log
