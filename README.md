@@ -46,7 +46,7 @@ This project is a complete simulation of an ISP (Internet Service Provider) infr
 
 ## Routing Protocols
 
-###**BGP (Border Gateway Protocol)**
+### **BGP (Border Gateway Protocol)**
 
 - **eBGP** used between external AS connections (e.g., R1 ↔ R6, R1 ↔ R7).
 - **iBGP** used within AS12353 using **route reflectors** to avoid full mesh.
@@ -54,7 +54,7 @@ This project is a complete simulation of an ISP (Internet Service Provider) infr
 - Configured **route-maps**, **prefix-lists**, and **AS-Path Prepending** to control routing policies.
 - **Default routes injected** into OSPF instead of full BGP redistribution.
 
-###**OSPF (Open Shortest Path First)**
+### **OSPF (Open Shortest Path First)**
 
 - OSPF is used as the **IGP** inside AS12353 and other ASes.
 - Proper area design was considered (e.g., backbone area 0).
@@ -98,13 +98,13 @@ This project is a complete simulation of an ISP (Internet Service Provider) infr
 
 ## Security Testing
 
-###**BGP Prefix Hijacking Simulation**
+### **BGP Prefix Hijacking Simulation**
 
 - AS65001 announced a route (40.0.0.0/24) falsely via R7.
 - Manipulated attributes to redirect traffic via malicious AS.
 - Demonstrated detection and removal of the hijacked prefix.
 
-###**DHCP Starvation Attack**
+### **DHCP Starvation Attack**
 
 - DHCP server deployed in internal network.
 - Used Docker-based Kali container to simulate **starvation attacks**.
